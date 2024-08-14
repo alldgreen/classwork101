@@ -27,12 +27,7 @@
     
   }
   .category{
-    /* display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      column-gap: 15px;  */
       justify-content: center;
-      
-   
   }
   .sect{
     border-radius: 10px;
@@ -54,4 +49,8 @@
   .sect img{
    position: relative;
    width: 100%;
+  }
+  p{
+    text-align: center;
+    font-size: xx-large;
   }

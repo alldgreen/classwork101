@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="./cos.css">
+
+</head>
+
+<body>
+
+    <section class="section-class">
+    <p>OUR PRODUCTS</p>
+    <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="./cosmetics.jpg/cos1.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./cosmetics.jpg/Cosmetic oil.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./cosmetics.jpg/cosmetics-8.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./cosmetics.jpg/cosmetics.jpeg" alt=""></div>
+    <div class="swiper-slide"><img src="./cosmetics.jpg/cos2.jpeg" alt=""></div>
+      <div class="swiper-slide"><img src="./cosmetics.jpg/cos3.jpeg" alt=""></div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+
+<section class="category">
+  <div class="sect"> 
+    <div>
+    <img src="./cosmetics.jpg/cos1.jpg" alt=""class="fit" width="200"  height="200">
+    <p class="font">Foundation<br>N255</p>
+  </div>
+  <div>
+    <img src="./cosmetics.jpg/cosmetics-8.jpg" alt=""class="fit"  width="200" height="200">
+    <p class="font">Powder makeup <br>N355</p>
+  </div>
+  <div>
+    <img src="./cosmetics.jpg/cos3.jpeg" alt=""class="fit" width="200" height="200">
+    <p class="font">Lipgloss <br>N555</p>
+  </div>
+  <div>
+    <img src="./cosmetics.jpg/cosmetics.jpeg" alt=""class="fit" width="200" height="200">
+    <p class="font"> Brushes <br>655</p>
+  </div>
+  <div>
+    <img src="./cosmetics.jpg/Cosmetic oil.jpg" alt=""class="fit" width="200" height="200">
+    <p class="font"> Eye pencil <br>N855</p>
+  </div>
+  <div>
+    <img src="./cosmetics.jpg/cos2.jpeg" alt=""class="fit" width="200" height="200">
+    <p class="font"> Eye pencil <br>N855</p>
+  </div>
+  </div>
+</section>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  // direction: 'vertical',
+  // loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  autoplay:{
+  delay:500,
+},
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+</script>
+    
+
+            </body>
+</html>
