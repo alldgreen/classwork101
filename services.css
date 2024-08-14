@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 70vh;
+    padding: 0 10px;
+    /* background-color: pink; */
+}
+
+.put{
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    position: relative;
+
+}
+
